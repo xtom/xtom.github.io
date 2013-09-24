@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tmp | My Octopress Blog]]></title>
   <link href="http://xtom.github.io/blog/categories/tmp/atom.xml" rel="self"/>
   <link href="http://xtom.github.io/"/>
-  <updated>2013-09-23T20:28:22+08:00</updated>
+  <updated>2013-09-24T10:12:55+08:00</updated>
   <id>http://xtom.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My first post on another PC]]></title>
+    <link href="http://xtom.github.io/blog/2013/09/24/my-first-post-on-another-pc/"/>
+    <updated>2013-09-24T10:02:00+08:00</updated>
+    <id>http://xtom.github.io/blog/2013/09/24/my-first-post-on-another-pc</id>
+    <content type="html"><![CDATA[<p>这篇博文是在另一台电脑上从github上clone我的博客仓库后发表的。</p>
+
+<p>参考资料：
+<a href="http://blog.zerosharp.com/clone-your-octopress-to-blog-from-two-places/">http://blog.zerosharp.com/clone-your-octopress-to-blog-from-two-places/</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
