@@ -9,8 +9,7 @@
   <meta name="author" content="Your Name">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="为了在多台电脑之间，编辑放在github上的octopress博客，查阅网络资源后写了cloneblog.sh。 当前提条件都准备好后，运行脚本，我的octopress仓库的master分支和source分支便躺在了当前目录的octopress目录下和octopress/_deploy目录下， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -92,7 +91,13 @@
   </header>
 
 
-<div class="entry-content">
+<div class="entry-content"><p>为了在多台电脑之间，编辑放在github上的octopress博客，查阅网络资源后写了cloneblog.sh。 当前提条件都准备好后，运行脚本，我的octopress仓库的master分支和source分支便躺在了当前目录的octopress目录下和octopress/_deploy目录下，它们中分别存放了octopress博客源文件和发布的静态博客页面文件。</p>
+
+<p>为了方便每次写博客前先同步一下github博客仓库，我写了pullblog.sh脚本。它会将github博客仓库上的source分支和master分支更新到本地仓库。</p>
+
+<p>一个不是很实用的脚本，newpost.sh新建博文，此脚本只是简单的封装了一下rake new_post[&ldquo;&hellip;&rdquo;]指令</p>
+
+<p>为了方便每次写完博客，即使更新到github博客仓库，写了pullblog.sh脚本。它将发布本地博文到github博客仓库的master分支，并把博客源代码更新到github仓库的source分支。</p>
 </div>
 
 
@@ -117,6 +122,12 @@
 
 <time datetime="2013-09-24T15:39:00+08:00" pubdate data-updated="true">Sep 24<span>th</span>, 2013</time>
       
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/tmp/'>tmp</a>
+  
+</span>
 
 
     </p>
